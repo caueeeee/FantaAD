@@ -21,8 +21,8 @@ tl.to(
 tl.to(
     '#laranja-cortada',
     {
-        top: '130%', // Move o elemento 'orange-cut' para 160% do topo
-        left: '0%', // Move o elemento para 23% da esquerda
+        top: '155%', // Move o elemento 'orange-cut' para 160% do topo
+        left: '20%', // Move o elemento para 23% da esquerda
     },
     'orange'
 ); // Nomeando esse trecho de animação como 'orange' para 
