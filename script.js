@@ -5,7 +5,7 @@ var tl = gsap.timeline({
         trigger: '.two',
         start: '0% 95%',
         end: '70% 50%',
-        scrub: true,
+        scrub: 1,
     }
 })
 
@@ -64,8 +64,8 @@ var tl2 = gsap.timeline({
         trigger: '.three',
         start: '0% 95%',
         end: '70% 50%', // Fim da animação (topo da tela atinge 50% da altura quando estiver 20% da sessão .three)
-        scrub: true,
-        markers: true // DEPURAÇÃO
+        scrub: 1,
+        markers: false // DEPURAÇÃO
     }
 })
 
